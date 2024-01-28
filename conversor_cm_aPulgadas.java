@@ -1,5 +1,5 @@
 
-public class Conversor_cm_aPulgadas {
+public class conversor_cm_aPulgadas {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

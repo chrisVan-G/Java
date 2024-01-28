@@ -10,7 +10,7 @@ public class HolaMundo {
 		System.out.print(" a darle!...");
 
 		/* Politecnico de colombia Módulo 2 
-		 * Youtube pildoras informaticas curso de Java video # 16
+		 * Youtube pildoras informaticas curso de Java video # 17
 		 * Se aprende con el uso, no de memoria
 		 */
 		

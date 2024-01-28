@@ -1,5 +1,5 @@
 
-public class Incremento_y_Decremento {
+public class incremento_y_Decremento {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
