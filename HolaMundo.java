@@ -7,7 +7,7 @@ public class HolaMundo {
 		//System.out.println("Hola Mundo!");
 		String mensaje = "Hola Mundo,";
 		System.out.print(mensaje);
-		System.out.print(" a darle!...")
+		System.out.print(" a darle!...");
 
 		/* Politecnico de colombia Módulo 2 
 		 * Youtube pildoras informaticas curso de Java video # 16
