@@ -1,6 +1,6 @@
 
 import javax.swing.*;
-public class Bubles_doWhile {
+public class Bucles_doWhile {
 
 	public static void main(String[] args) {
 		// Evalua la condición después de ejecutar el código que hay en su interior
