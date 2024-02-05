@@ -1,7 +1,7 @@
 
 import javax.swing.*;
 
-public class entrada_Numeros {
+public class Entrada_Numeros {
 
 	public static void main(String[] args) {
 		

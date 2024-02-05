@@ -2,7 +2,7 @@
 import java.util.*;
 import javax.swing.JOptionPane;
 
-public class condicionales_switchCase_2 {
+public class Condicionales_switchCase_2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

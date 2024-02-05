@@ -1,7 +1,7 @@
 
 import javax.swing.*;
 
-public class entrada_JOption {
+public class Entrada_JOption {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

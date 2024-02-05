@@ -1,5 +1,5 @@
 
-public class clase_Math {
+public class Clase_Math {
 
 	public static void main(String[] args) {
 		

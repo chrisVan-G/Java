@@ -1,6 +1,6 @@
 
 import java.util.*;
-public class condicionales_if {
+public class Condicionales_if {
 
 	public static void main(String[] args) {
 		// Control de flujo - condicionales y bucles

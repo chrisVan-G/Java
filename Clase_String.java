@@ -1,5 +1,5 @@
 
-public class clase_String {
+public class Clase_String {
 
 	public static void main(String[] args) {
 		// Manipulación de cadenas de caracteres

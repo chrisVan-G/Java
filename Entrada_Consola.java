@@ -1,7 +1,7 @@
 
 import java.util.*;
 
-public class entrada_Consola {
+public class Entrada_Consola {
 
 	public static void main(String[] args) {
 		
