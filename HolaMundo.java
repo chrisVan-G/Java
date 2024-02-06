@@ -9,7 +9,7 @@ public class HolaMundo {
 		System.out.print(mensaje);
 		System.out.print(" a darle!...");
 
-		/* Politecnico de colombia Módulo 2 página 20
+		/* Politecnico de colombia Módulo 2 página 26 - Ejercicios condicionales complejas sigue el # 2
 		 * Youtube pildoras informaticas curso de Java video # 23 Matrices
 		 * Se aprende con el uso, no de memoria
 		 */
