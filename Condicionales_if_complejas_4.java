@@ -1,4 +1,5 @@
 
+import javax.swing.*;
 public class Condicionales_if_complejas_4 {
 
 	public static void main(String[] args) {
@@ -14,7 +15,31 @@ public class Condicionales_if_complejas_4 {
 		 * 4. Fuera de nivel: Porcentaje < 50%.
 		 */
 		
+		double preguntas = 50;
+		double resultado = Double.parseDouble(JOptionPane.showInputDialog("Ingrese el número de respuestas correctas"));
 		
+		double porcentaje = (resultado * 100) / preguntas;
+		
+		if(porcentaje >= 90 && porcentaje <= 100)
+		{
+			System.out.println("* Felicitaciones, estas en el nivel maximo");
+		}
+		else if(porcentaje >= 75 && porcentaje < 90)
+		{
+			System.out.println("* Estas en el nivel medio");
+		}
+		else if(porcentaje >= 50 && porcentaje < 75)
+		{			
+			System.out.println("* Estas en el nivel regular");
+		}
+		else if(porcentaje < 50 && porcentaje >= 0)
+		{
+			System.out.println("* Estas fuera de nivel");
+		}
+		else
+		{
+			System.out.println("* El valor ingresado no es correcto, por favor validar e intentar de nuevo");
+		}
 		
 	}
 
