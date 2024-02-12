@@ -5,7 +5,7 @@ import javax.swing.*;
 public class Condicionales_switchCase {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// Condicional de selección
 		
 		Scanner entrada = new Scanner(System.in);
 		System.out.println("Elige una opcion: \n1: Cuadrado \n2: Rectangulo \n3: Triangulo \n4: Circulo"); // \n Salto de linea
