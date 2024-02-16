@@ -11,7 +11,7 @@ public class Bucles_for {
 		
 		String email = JOptionPane.showInputDialog("Introduce tu email ");
 
-		for(int i = 0; i < email.length(); i++) {
+		for(int i = 0; i < email.length(); i++) { //Valor de inicio; condicional(valor de parada); valor de incremento - decremento
 			
 			if(email.charAt(i) == '@') {
 				
