@@ -2,13 +2,23 @@
 public class Bucles_for_3 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// Ciclos for(para), necesita valor inicial, una condición y un valor final
 		
-		for(int i = 1; i <= 10; i++)
+		// Desarrollar un programa que muestre los números pares entre 0 – 20 de forma ascendente.
+		
+		for(int i = 0; i <= 20; System.out.print(i + " "), i+=2); System.out.println("* Ascendente");
+		for(int i = 20; i >= 0; System.out.print(i + " "), i-=2); System.out.println("* Descendente");
+		
+		/*
+		for(int i = 0; i <= 20; i++) // Este programa utiliza más lineas de código, lo que no es eficiente
 		{
-			System.out.print(" * Numero " + i + "");
+			if(i % 2 == 0)
+			{
+				System.out.print(i + " ");
+			}
 		}
-					
+		*/
+		
 	}
 
 }
