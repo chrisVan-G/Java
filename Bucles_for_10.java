@@ -13,27 +13,66 @@ public class Bucles_for_10 {
 		 * - Hallar la factorial.
 		 * - Definir si es un número perfecto.
 		 */
-		
+
 		int numero = Integer.parseInt(JOptionPane.showInputDialog("Ingresa el número a evaluar, por favor "));
-		
-		int suma = 0;
+		int sumaIteraciones = 0;
 		
 		for(int i = 0; i <= numero; i++)
 		{
-			suma = suma + i;
+			sumaIteraciones = sumaIteraciones + i;
 		}
 		
-		System.out.println("* Raiz cuadrada " + Math.sqrt(suma));
-		System.out.println("* El numero aleatorio entre 1 y " + numero + " es: " + Math.round(Math.random() * numero));
+		System.out.println("* Suma de las iteraciones: " + sumaIteraciones);
+		System.out.println("* Raiz cuadrada " + Math.sqrt(sumaIteraciones));
+		System.out.println("* El numero aleatorio es: " + Math.round(Math.random() * sumaIteraciones));
 		System.out.println("* Divisores");
-		for(int i = 1; i <= numero; i++)
+		
+		for(int j = 1; j <= sumaIteraciones; j++)
 		{
-			if(numero % i == 0)
+			if(numero % j == 0)
 			{
-				System.out.print(i +" ");
+				System.out.print(j +" ");
 			}
 		}
 		
+		System.out.println();
+		
+		int suma = 0;
+		
+		for(int x = 1; x < sumaIteraciones; x++)
+		{
+			if(sumaIteraciones % x == 0)
+			{
+				suma = suma + x;
+			}
+		}
+		
+		if(numero > 0)
+		{
+			if(suma == sumaIteraciones)
+			{
+				System.out.println("* El numero "+ sumaIteraciones + " es perfecto");
+			}
+			
+			else if(suma != sumaIteraciones)
+			{
+				System.out.println("* El numero "+ sumaIteraciones + " no es perfecto");
+			}
+		}
+		
+		else
+		{
+			System.out.println("* Error");
+		}
+
+		int factorial = 1;
+				
+		for (int z = sumaIteraciones; z > 0; z--, sumaIteraciones--)
+		{
+			factorial = factorial * sumaIteraciones;
+		}
+		
+		System.out.println("* El factorial es "+ factorial);
 	}
 
 }
