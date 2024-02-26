@@ -11,7 +11,7 @@ public class Bucles_while_2 {
 		int numero = 0;
 		int intentos = 0; 
 		
-		while(numero != aleatorio) {
+		while(numero != aleatorio) {//Se compone de una condición que tiene que tomar un valor booleano
 			
 			intentos++;
 			
