@@ -1,4 +1,5 @@
 
+import java.util.*;
 public class HolaMundo {
 
 	public static void main(String[] args) {
@@ -9,7 +10,7 @@ public class HolaMundo {
 		System.out.print(mensaje);
 		System.out.print(" a darle!...");
 
-		/* Politecnico de colombia Módulo 2 página 51
+		/* Politecnico de colombia Módulo 2 página 54 vectores
 		 * Youtube pildoras informaticas curso de Java video # 23 Matrices
 		 * Se aprende con el uso, no de memoria
 		 */
