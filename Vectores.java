@@ -5,9 +5,11 @@ public class Vectores {
     public static void main(String[] args) {
     	
     	// También se conocen como arrays o matrices cuando trabajan con 2 dimensiones
-    	
+    	//Sirve para almacenar valores del mismo tipo
         // Crear un ArrayList para almacenar enteros
         
+    	//Declaración utilizando el constructor de ArrayList:
+    	
     	ArrayList<Integer> vector = new ArrayList<>();
 
         // Agregar elementos al vector

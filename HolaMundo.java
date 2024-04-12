@@ -9,8 +9,8 @@ public class HolaMundo {
 		System.out.print(mensaje);
 		System.out.print(" a darle!...");
 
-		/* Politecnico de colombia Módulo 2 página 54 vectores
-		 * Youtube pildoras informaticas curso de Java video # 23 Matrices
+		/* Politecnico de colombia Módulo 2 página 59 vectores
+		 * Youtube pildoras informaticas curso de Java video # 26 Matrices
 		 * Se aprende con el uso, no de memoria
 		 */
 
